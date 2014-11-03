@@ -1,0 +1,1 @@
+http://wsptrainer.azurewebsites.net/WebService.asmx
