@@ -1,0 +1,153 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.silvia.ptrainer.CrearRutinaActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:background="#B43104">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="Arial"
+            android:textSize="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Crear Nueva Rutina"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:stretchColumns="*">
+
+        <TableRow>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="30dp">
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:layout_gravity="center"
+                android:text="Nombre de la Rutina"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/txtNombreRutina"
+                android:layout_width="200dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"/>
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:layout_gravity="center"
+                android:text="Ejercicio"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/txtEjercicio"
+                android:layout_width="200dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:layout_gravity="center"
+                android:text="Series a realizar"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/txtSeries"
+                android:layout_width="200dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:layout_gravity="center"
+                android:text="Repeticiones"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/txtRepeticiones"
+                android:layout_width="200dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"/>
+
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+
+                android:layout_marginTop="20dp"
+                android:layout_height="wrap_content"
+                android:layout_width="150dp"
+                android:layout_gravity="center"
+                android:text="Tiempo de descanso"
+                android:textSize="20dp"/>
+
+            <EditText
+                android:id="@+id/txtTiempoDescanso"
+                android:layout_width="200dp"
+                android:layout_gravity="center_vertical"
+                android:layout_height="wrap_content"/>
+
+        </TableRow>
+
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnGuardarRutina"
+                android:layout_marginTop="60dp"
+                android:layout_height="wrap_content"
+                android:layout_width="180dp"
+                android:layout_gravity="center"
+                android:text="Crear Rutina"
+                android:textSize="20dp"/>
+
+
+        </TableRow>
+
+
+
+    </TableLayout>
+
+</RelativeLayout>

@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context="com.example.silvia.ptrainer.CrearRutinasMenu">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:background="#B43104">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginTop="45dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="Arial"
+            android:textSize="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Gestión de Rutinas"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="110dp"
+        android:gravity="center_horizontal"
+        android:stretchColumns="*">
+
+        <TableRow>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                >
+            </LinearLayout>
+        </TableRow>
+
+        <TableRow>
+
+            <Button
+                android:id="@+id/btnRutinasUsuario"
+                android:layout_width="500dp"
+                android:layout_height="250dp"
+                android:layout_marginLeft="50dp"
+                android:layout_gravity="left"
+                android:background="#FFFFFF"
+                android:drawableLeft="@drawable/user_routine"
+                android:text="Crea y personaliza tus rutinas"
+                android:textSize="30dp"
+                android:textAlignment="center"
+
+                />
+        </TableRow>
+
+        <TableRow>
+        <Button
+            android:layout_width="500dp"
+            android:layout_height="200dp"
+            android:id="@+id/btnRutinasPtrainer"
+            android:layout_gravity="left"
+            android:layout_marginLeft="50dp"
+            android:background="#FFFFFF"
+            android:drawableLeft="@drawable/tech_fitness"
+            android:text="    Rutinas Personal Trainer"
+            android:textSize="30dp"
+            android:textAlignment="center"/>
+    </TableRow>
+
+        <TableRow>
+            <Button
+                android:layout_width="500dp"
+                android:layout_height="200dp"
+                android:id="@+id/btnYouTube"
+                android:layout_gravity="left"
+                android:layout_marginLeft="50dp"
+                android:background="#FFFFFF"
+                android:drawableLeft="@drawable/youtube"
+                android:text="      Buscar rutinas"
+                android:textSize="30dp"
+                android:textAlignment="center"/>
+        </TableRow>
+    </TableLayout>
+</RelativeLayout>
+

@@ -1,0 +1,83 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E6E6E6"
+    android:weightSum="1">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="430dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/principal" >
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="475dp" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+
+
+            <EditText
+                android:id="@+id/txtUsername"
+                android:layout_height="wrap_content"
+                android:layout_width="450dp"
+                android:layout_gravity="center"
+                android:layout_marginTop="30dp"
+                android:hint="Username"
+                android:textSize="25dp"
+                android:fontFamily="arial"
+                android:inputType="text" />
+
+            <EditText
+                android:id="@+id/txtPass"
+                android:layout_height="wrap_content"
+                android:layout_width="450dp"
+                android:layout_gravity="center"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:layout_marginTop="30dip"
+                android:layout_marginBottom="30dip"
+                android:textSize="25dp"
+                android:fontFamily="arial"/>
+
+
+
+
+            <Button
+                android:id="@+id/btnLogin"
+                android:layout_height="wrap_content"
+                android:layout_width="300dp"
+                android:text="Log In"
+                android:background="#0489B1"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="15dip"
+                android:paddingRight="15dip" />
+
+            <TextView
+                android:id="@+id/link_to_register"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dip"
+                android:layout_marginBottom="40dip"
+                android:text="No tienes Cuenta? Registrate!"
+                android:gravity="center"
+                android:textSize="20dip"
+                android:textColor="#0b84aa"/>
+
+
+
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+
+</LinearLayout>

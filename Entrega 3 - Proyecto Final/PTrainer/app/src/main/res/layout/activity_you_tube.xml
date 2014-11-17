@@ -1,0 +1,85 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    tools:context="com.example.silvia.ptrainer.YouTubeActivity">
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="120dp"
+        android:background="#B43104">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="#FFFFFF"
+            android:fontFamily="Arial"
+            android:textSize="30dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:text="Buscar Rutinas "
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="150dp"
+        android:stretchColumns="*">
+
+    <TableRow>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="30dp">
+        </LinearLayout>
+    </TableRow>
+
+    <TableRow>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="100dp"
+            android:drawableLeft="@drawable/youtube"
+            android:layout_marginLeft="30dp"/>
+
+        <EditText
+            android:id="@+id/etQueryText"
+            android:layout_width="280dp"
+            android:layout_gravity="center_vertical"
+            android:hint="   Videos a buscar"
+            android:layout_height="wrap_content"
+
+            />
+
+        <Button
+            android:layout_height="wrap_content"
+            android:layout_width="80dp"
+            android:background="#FFFFFF"
+            android:layout_gravity="center"
+            android:drawableTop="@drawable/search"
+            android:id="@+id/btnSearch"
+
+            />
+
+    </TableRow>
+    </TableLayout>
+
+    <ListView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="350dp"
+        android:orientation="vertical"
+        android:id="@+id/lstVideo">
+
+
+    </ListView>
+
+
+</RelativeLayout>

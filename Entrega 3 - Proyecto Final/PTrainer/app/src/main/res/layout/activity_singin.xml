@@ -1,0 +1,100 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#E6E6E6"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="430dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/principal" >
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_height="30dp"
+        android:layout_width="fill_parent">
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="475dp" >
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:orientation="vertical" >
+
+
+            <EditText
+                android:id="@+id/txtName"
+                android:layout_height="wrap_content"
+                android:layout_width="450dp"
+                android:layout_gravity="center"
+                android:hint="Name, LastName"
+                android:inputType="text"
+                android:textSize="25dp"
+                android:fontFamily="arial"/>
+
+            <EditText android:id="@+id/txtUsername"
+                android:layout_marginTop="30dip"
+                android:layout_height="wrap_content"
+                android:layout_width="450dp"
+                android:layout_gravity="center"
+                android:hint="Username"
+                android:inputType="text"
+                android:textSize="25dp"
+                android:fontFamily="arial"/>
+
+            <EditText android:id="@+id/txtPass"
+                android:layout_height="wrap_content"
+                android:layout_width="450dp"
+                android:layout_gravity="center"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:layout_marginTop="30dip"
+                android:layout_marginBottom="30dip"
+                android:textSize="25dp"
+                android:fontFamily="arial"/>
+
+
+            <Button android:id="@+id/btnRegister"
+                android:layout_height="wrap_content"
+                android:layout_width="300dp"
+                android:text="Registrarse"
+                android:background="#0489B1"
+                android:textColor="#FFFFFF"
+                android:layout_gravity="center_horizontal"
+                android:paddingLeft="15dip"
+                android:paddingRight="15dip" />
+
+            <TextView
+                android:id="@+id/link_to_login"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dip"
+                android:layout_marginBottom="40dip"
+                android:text="Ya tienes cuenta! Accede!"
+                android:gravity="center"
+                android:textSize="20dip"
+                android:textColor="#0b84aa"/>
+
+            <TextView
+                android:id="@+id/register_error"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dip"
+                android:layout_marginBottom="40dip"
+
+                android:gravity="center"
+                android:textSize="20dip"
+                android:textColor="#0b84aa"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+</LinearLayout>

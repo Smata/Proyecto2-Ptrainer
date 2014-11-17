@@ -1,0 +1,121 @@
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+android:background="#FFFFFF"
+android:orientation="vertical">
+
+
+    <TableLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:stretchColumns="*">
+
+        <TableRow>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="30dp">
+            </LinearLayout>
+        </TableRow>
+
+         <TableRow>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Máquinas"
+                android:textColor="#000000"
+                android:fontFamily="arial"
+                android:textSize="35dp"
+                android:background="#FFFFFF"
+                android:drawableTop="@drawable/maquinas"
+                android:id="@+id/btnMaquinas" />
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnMisRutinas"
+                android:layout_gravity="center_horizontal"
+                android:text="Mis Rutinas"
+                android:textColor="#000000"
+                android:fontFamily="arial"
+                android:textSize="35dp"
+                android:background="#FFFFFF"
+                android:drawableTop="@drawable/rutinas"/>
+
+         </TableRow>
+        <TableRow>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp">
+            </LinearLayout>
+        </TableRow>
+
+
+         <TableRow>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnGestRutinas"
+                android:layout_gravity="center_horizontal"
+                android:text="Crear Rutinas"
+                android:textColor="#000000"
+                android:fontFamily="arial"
+                android:textSize="35dp"
+                android:background="#FFFFFF"
+                android:drawableTop="@drawable/crear_rutina"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnProgreso"
+                android:layout_gravity="center_horizontal"
+                android:text="Progreso"
+                android:textColor="#000000"
+                android:fontFamily="arial"
+                android:textSize="35dp"
+                android:background="#FFFFFF"
+                android:drawableTop="@drawable/progreso"/>
+
+         </TableRow>
+
+        <TableRow>
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="50dp">
+            </LinearLayout>
+        </TableRow>
+
+         <TableRow>
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnMiRankin"
+                android:layout_gravity="center_horizontal"
+                android:text="Mi Ranking"
+                android:textColor="#000000"
+                android:fontFamily="arial"
+                android:textSize="35dp"
+                android:background="#FFFFFF"
+                android:drawableTop="@drawable/ranking"/>
+
+            <Button
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnInfo"
+                android:layout_gravity="center_horizontal"
+                android:text="Información"
+                android:textColor="#000000"
+                android:fontFamily="arial"
+                android:textSize="35dp"
+                android:background="#FFFFFF"
+                android:drawableTop="@drawable/informacion"/>
+
+         </TableRow>
+
+
+    </TableLayout>
+
+
+</LinearLayout>
